@@ -1,0 +1,26 @@
+[Unit]
+Description=Recruit's distributed currency daemon
+After=network.target
+
+[Service]
+User=recruit
+Group=recruit
+
+Type=forking
+PIDFile=/var/lib/recruitd/recruitd.pid
+
+ExecStart=/usr/bin/recruitd -daemon -pid=/var/lib/recruitd/recruitd.pid \
+          -conf=/etc/recruit/recruit.conf -datadir=/var/lib/recruitd
+
+ExecStop=-/usr/bin/recruit-cli -conf=/etc/recruit/recruit.conf \
+         -datadir=/var/lib/recruitd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

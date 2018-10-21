@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Recruit
+Comment=Recruit P2P Cryptocurrency
+Exec=recruit-qt %u
+Terminal=false
+Type=Application
+Icon=recruit128
+MimeType=x-scheme-handler/recruit;
+Categories=Office;Finance;
+Name[en_US]=recruit-qt.desktop

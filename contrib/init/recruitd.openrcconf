@@ -1,0 +1,26 @@
+# /etc/conf.d/recruitd: config file for /etc/init.d/recruitd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/recruit/recruit.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/recruitd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/recruitd.pid"
+
+# Where to write recruitd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/recruitd"
+
+# User and group to own recruitd process
+#BITCOIND_USER="recruit"
+#BITCOIND_GROUP="recruit"
+
+# Path to recruitd executable
+#BITCOIND_BIN="/usr/bin/recruitd"
+
+# Nice value to run recruitd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
