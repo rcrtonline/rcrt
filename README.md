@@ -11,6 +11,9 @@ Recruit (RCRT) is a sustainable cryptocurrency modeled after Satoshi Nakamoto’
 More information at [rcrt.online](http://rcrt.online/)
 
 ### Coin Specs
+
+| Coin                        | RCRT (Recruit)          |
+| -------------               | -------------           |
 | Coin type                   | PoW/PoS/Masternode      |
 | Block Time                  | 60 Seconds              |
 | Max Coin Supply (PoS Phase) | 50,000,000 RCRT         |
