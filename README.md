@@ -6,14 +6,17 @@ Recruit (RCRT) is a sustainable cryptocurrency modeled after Satoshi Nakamoto’
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftTX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 10,000 RCRT.
+  with a collateral of 5,000 RCRT.
 
-More information at [recruit-coin.io](http://recruit-coin.io/)
+More information at [rcrt.online](http://rcrt.online/)
 
 ### Coin Specs
-| Block Time                  | 60 Seconds      |
-| Max Coin Supply (PoW Phase) | 500,000 RCRT    |
-| Max Coin Supply (PoS Phase) | 50,000,000 RCRT |
-| Premine                     | 500,000 RCRT    |
+| Coin type                   | PoW/PoS/Masternode      |
+| Block Time                  | 60 Seconds              |
+| Max Coin Supply (PoS Phase) | 50,000,000 RCRT         |
+| Premine                     | 500,000 RCRT            |
+| Masternode collateral       | 5000 RCRT               |
+| Masternode reward           | 70%                     |
+| Algorithm                   | Quark                   |
 
 
