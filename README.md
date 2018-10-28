@@ -8,7 +8,7 @@ Recruit (RCRT) is a sustainable cryptocurrency modeled after Satoshi Nakamoto’
   technology used to secure the network and provide the above features, each Masternode is secured
   with a collateral of 5,000 RCRT.
 
-More information at [rcrt.online](http://rcrt.online/)
+More information at [site.rcrt.online](http://site.rcrt.online/)
 
 ### Coin Specs
 
